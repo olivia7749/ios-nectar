@@ -1,0 +1,1342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2709AEE01D656D40004FEB3D /* OverViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2709AEDF1D656D40004FEB3D /* OverViewCell.swift */; };
+		272234661D6AFCD100C4F90B /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272234651D6AFCD100C4F90B /* Flavor.swift */; };
+		273C205F1D9583FC0076356C /* SelfDefineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273C205E1D9583FC0076356C /* SelfDefineButton.swift */; };
+		274343381D9F9510006B520F /* FlavorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274343371D9F9510006B520F /* FlavorService.swift */; };
+		2743433F1DA0CF21006B520F /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743433E1DA0CF21006B520F /* ImageService.swift */; };
+		274343411DA0CF2D006B520F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274343401DA0CF2D006B520F /* Image.swift */; };
+		27451BEE1D69402F00FF782E /* InstanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27451BED1D69402F00FF782E /* InstanceService.swift */; };
+		27451BF01D69404400FF782E /* Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27451BEF1D69404400FF782E /* Instance.swift */; };
+		274FF9491D53078700D588EC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274FF9481D53078700D588EC /* User.swift */; };
+		274FF94B1D53102A00D588EC /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274FF94A1D53102A00D588EC /* UserService.swift */; };
+		274FF94D1D5C868200D588EC /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274FF94C1D5C868200D588EC /* LoginStoryboard.storyboard */; };
+		274FF9501D5CAA2000D588EC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274FF94F1D5CAA2000D588EC /* BaseViewController.swift */; };
+		27510BA51D488F290098CD17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27510BA41D488F290098CD17 /* AppDelegate.swift */; };
+		27510BA71D488F290098CD17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27510BA61D488F290098CD17 /* ViewController.swift */; };
+		27510BAA1D488F290098CD17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27510BA81D488F290098CD17 /* Main.storyboard */; };
+		27510BAC1D488F290098CD17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27510BAB1D488F290098CD17 /* Assets.xcassets */; };
+		27510BAF1D488F290098CD17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27510BAD1D488F290098CD17 /* LaunchScreen.storyboard */; };
+		27510BBA1D488F2A0098CD17 /* NeCTARClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27510BB91D488F2A0098CD17 /* NeCTARClientTests.swift */; };
+		275FA0B11D6A7A2100898557 /* InstanceDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275FA0B01D6A7A2100898557 /* InstanceDetailCell.swift */; };
+		276BE6281D607DF1003EA74C /* ContentBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BE6271D607DF1003EA74C /* ContentBaseViewController.swift */; };
+		276BE62C1D6080DC003EA74C /* CommonUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BE62B1D6080DC003EA74C /* CommonUsage.swift */; };
+		276BE62E1D608BF9003EA74C /* OverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BE62D1D608BF9003EA74C /* OverViewController.swift */; };
+		276BE6301D609FAE003EA74C /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BE62F1D609FAE003EA74C /* LeftViewController.swift */; };
+		276BE6431D62CA49003EA74C /* OtherPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BE6421D62CA48003EA74C /* OtherPageViewController.swift */; };
+		276BE6471D6343A8003EA74C /* InstancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BE6461D6343A8003EA74C /* InstancesViewController.swift */; };
+		276BE6491D6343C4003EA74C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BE6481D6343C4003EA74C /* AboutViewController.swift */; };
+		27AAFD4F1D5DB246007E3054 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AAFD4E1D5DB246007E3054 /* LoginViewController.swift */; };
+		27B5514F1DA372480083E8D4 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B5514E1DA372480083E8D4 /* GuideViewController.swift */; };
+		27B551531DA3BFF80083E8D4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B551511DA3BFF80083E8D4 /* WebViewController.swift */; };
+		27B551541DA3BFF80083E8D4 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27B551521DA3BFF80083E8D4 /* WebViewController.xib */; };
+		27DCDBFD1D8E873700D523BD /* InstanceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DCDBFC1D8E873700D523BD /* InstanceDetailViewController.swift */; };
+		27FA446B1D917DE6007DB8CC /* ActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FA446A1D917DE6007DB8CC /* ActionsViewController.swift */; };
+		4505A6B82154FEBE00F32F57 /* ContainerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6B72154FEBE00F32F57 /* ContainerService.swift */; };
+		4505A6BA2154FEE400F32F57 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6B92154FEE400F32F57 /* Container.swift */; };
+		4505A6BD2154FF4800F32F57 /* ConrainersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6BC2154FF4800F32F57 /* ConrainersViewController.swift */; };
+		4505A6BF215500C300F32F57 /* ContainerDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6BE215500C300F32F57 /* ContainerDetailCell.swift */; };
+		4505A6C12155044000F32F57 /* AddContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6C02155044000F32F57 /* AddContainerViewController.swift */; };
+		4505A6C321551BE700F32F57 /* ContainerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6C221551BE700F32F57 /* ContainerDetailViewController.swift */; };
+		4505A6C521551F0700F32F57 /* ObjectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6C421551F0700F32F57 /* ObjectService.swift */; };
+		4505A6C721551FAA00F32F57 /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6C621551FAA00F32F57 /* Object.swift */; };
+		4505A6C92155241000F32F57 /* ObjectDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6C82155241000F32F57 /* ObjectDetailCell.swift */; };
+		4505A6CB2155DA3700F32F57 /* CreateFolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6CA2155DA3700F32F57 /* CreateFolderViewController.swift */; };
+		4505A6D2215628B300F32F57 /* NetworksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6D1215628B300F32F57 /* NetworksViewController.swift */; };
+		4505A6D42156582600F32F57 /* NetworkDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6D32156582600F32F57 /* NetworkDetailCell.swift */; };
+		4505A6D62156F61C00F32F57 /* NetworkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6D52156F61C00F32F57 /* NetworkDetailViewController.swift */; };
+		4505A6D821571FAF00F32F57 /* AddNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6D721571FAF00F32F57 /* AddNetworkViewController.swift */; };
+		4505A6DC21575C5500F32F57 /* SubnetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6DB21575C5500F32F57 /* SubnetsViewController.swift */; };
+		4505A6DE215762B300F32F57 /* SubnetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6DD215762B300F32F57 /* SubnetService.swift */; };
+		4505A6E0215762F400F32F57 /* Subnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6DF215762F400F32F57 /* Subnet.swift */; };
+		4505A6E221576FAC00F32F57 /* SubnetDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6E121576FAC00F32F57 /* SubnetDetailCell.swift */; };
+		4505A6E42157A46900F32F57 /* CreateSubnetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6E32157A46900F32F57 /* CreateSubnetViewController.swift */; };
+		4505A6E62157D73300F32F57 /* PortsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6E52157D73300F32F57 /* PortsViewController.swift */; };
+		4505A6E82158603700F32F57 /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6E72158603700F32F57 /* Port.swift */; };
+		4505A6EA215878B600F32F57 /* PortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6E9215878B600F32F57 /* PortService.swift */; };
+		4505A6EC21587E4500F32F57 /* PortDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6EB21587E4500F32F57 /* PortDetailCell.swift */; };
+		4505A6EE215891F300F32F57 /* CreatePortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6ED215891F300F32F57 /* CreatePortViewController.swift */; };
+		4505A6F82159F37400F32F57 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6F72159F37400F32F57 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4505A6FE215C6C1200F32F57 /* DatabaseInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A6FD215C6C1200F32F57 /* DatabaseInstance.swift */; };
+		4505A701215CA61400F32F57 /* DatabaseInstanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A700215CA61400F32F57 /* DatabaseInstanceViewController.swift */; };
+		4505A703215CA70100F32F57 /* DatabaseInstanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A702215CA70100F32F57 /* DatabaseInstanceService.swift */; };
+		4505A705215CAD7200F32F57 /* DatabaseInstanceDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A704215CAD7200F32F57 /* DatabaseInstanceDetailCell.swift */; };
+		4505A707215CDFD200F32F57 /* DatabaseInstanceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A706215CDFD200F32F57 /* DatabaseInstanceDetailViewController.swift */; };
+		4505A709215CF15A00F32F57 /* AddBackupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A708215CF15A00F32F57 /* AddBackupsViewController.swift */; };
+		4505A70D215D172800F32F57 /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A70C215D172800F32F57 /* Backup.swift */; };
+		4505A70F215D1ACC00F32F57 /* BackupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A70E215D1ACC00F32F57 /* BackupService.swift */; };
+		4505A713215D2F1300F32F57 /* BackupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A712215D2F1300F32F57 /* BackupsViewController.swift */; };
+		4505A715215D2F4B00F32F57 /* BackupDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A714215D2F4B00F32F57 /* BackupDetailCell.swift */; };
+		4505A71B215F4CB300F32F57 /* NeCTAREngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A71A215F4CB300F32F57 /* NeCTAREngine.swift */; };
+		4505A71E215F6AAC00F32F57 /* ConfigurationGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A71D215F6AAC00F32F57 /* ConfigurationGroupViewController.swift */; };
+		4505A720215F6B0500F32F57 /* ConfigurationGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A71F215F6B0500F32F57 /* ConfigurationGroup.swift */; };
+		4505A722215F6D6500F32F57 /* ConfigurationGroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A721215F6D6500F32F57 /* ConfigurationGroupService.swift */; };
+		4505A724215F715900F32F57 /* ConfigurationDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A723215F715900F32F57 /* ConfigurationDetailCell.swift */; };
+		4505A72A215F8B8800F32F57 /* AddConfigGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A729215F8B8800F32F57 /* AddConfigGroupViewController.swift */; };
+		4505A72C215F8C0E00F32F57 /* AddDataInsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A72B215F8C0E00F32F57 /* AddDataInsViewController.swift */; };
+		4505A72E215FBEC000F32F57 /* AvailabilityZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A72D215FBEC000F32F57 /* AvailabilityZone.swift */; };
+		4505A730215FBF4E00F32F57 /* AvailabZoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A72F215FBF4E00F32F57 /* AvailabZoneService.swift */; };
+		4505A732216093B100F32F57 /* DatabaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A731216093B100F32F57 /* DatabaseViewController.swift */; };
+		4505A7342160CDCF00F32F57 /* ResizeVolumeForDatabaseIns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A7332160CDCF00F32F57 /* ResizeVolumeForDatabaseIns.swift */; };
+		4505A7362160DB9F00F32F57 /* AttachConfigGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A7352160DB9F00F32F57 /* AttachConfigGroupViewController.swift */; };
+		4505A73A2161F29A00F32F57 /* ResourceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A7392161F29A00F32F57 /* ResourceTypes.swift */; };
+		4505A73C2161F3C600F32F57 /* ResourceTypeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A73B2161F3C600F32F57 /* ResourceTypeService.swift */; };
+		4505A7402161F46F00F32F57 /* ResourceTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A73F2161F46F00F32F57 /* ResourceTypeViewController.swift */; };
+		4505A7422161F73200F32F57 /* ResourceTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A7412161F73200F32F57 /* ResourceTypeCell.swift */; };
+		4505A7442161FE2000F32F57 /* ResourceTypeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A7432161FE2000F32F57 /* ResourceTypeDetailViewController.swift */; };
+		4505A74621636C4900F32F57 /* TemplateVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A74521636C4900F32F57 /* TemplateVersion.swift */; };
+		4505A74821636D2400F32F57 /* TemplateVersionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A74721636D2400F32F57 /* TemplateVersionService.swift */; };
+		4505A74A21636DCF00F32F57 /* TemplateVersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A74921636DCF00F32F57 /* TemplateVersionViewController.swift */; };
+		4505A74C21636FFE00F32F57 /* TemplateVersionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A74B21636FFE00F32F57 /* TemplateVersionCell.swift */; };
+		4505A74E21637D3D00F32F57 /* TemplateVersionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A74D21637D3D00F32F57 /* TemplateVersionDetailViewController.swift */; };
+		4505A750216380EC00F32F57 /* TemplateVersionDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A74F216380EC00F32F57 /* TemplateVersionDetailCell.swift */; };
+		4505A7542163A1BF00F32F57 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A7532163A1BF00F32F57 /* StackViewController.swift */; };
+		4505A7562163A30200F32F57 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A7552163A30200F32F57 /* Stack.swift */; };
+		4505A7582163A3FD00F32F57 /* StackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A7572163A3FD00F32F57 /* StackService.swift */; };
+		4505A75A2163A63200F32F57 /* StackDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A7592163A63200F32F57 /* StackDetailCell.swift */; };
+		4505A7602165C93500F32F57 /* StacksDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4505A75F2165C93500F32F57 /* StacksDetailViewController.swift */; };
+		452068E6214B5DCE00427CBC /* RoutersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452068E5214B5DCE00427CBC /* RoutersViewController.swift */; };
+		452068E8214B7E0800427CBC /* RouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452068E7214B7E0800427CBC /* RouterService.swift */; };
+		452068EA214B7EC600427CBC /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452068E9214B7EC600427CBC /* Router.swift */; };
+		452068EC214BAF1B00427CBC /* RouterDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452068EB214BAF1B00427CBC /* RouterDetailCell.swift */; };
+		452068EE214BB3F600427CBC /* RouterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452068ED214BB3F600427CBC /* RouterDetailViewController.swift */; };
+		452068F4214CC0CA00427CBC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452068F3214CC0CA00427CBC /* Network.swift */; };
+		452068F6214CC12D00427CBC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452068F5214CC12D00427CBC /* NetworkService.swift */; };
+		4582C6BA21687CD5007C15F1 /* OrchestrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4582C6B921687CD5007C15F1 /* OrchestrationViewController.swift */; };
+		458F5E1C214DE8A400C1DC47 /* AddRouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458F5E1B214DE8A400C1DC47 /* AddRouterViewController.swift */; };
+		45CAF6692150D481000DC8C1 /* EditRouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CAF6682150D481000DC8C1 /* EditRouterViewController.swift */; };
+		45F6EC8F2152487900A157E7 /* FloatingIPsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6EC8E2152487900A157E7 /* FloatingIPsViewController.swift */; };
+		45F6EC93215248FA00A157E7 /* FloatingIPDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6EC92215248FA00A157E7 /* FloatingIPDetailCell.swift */; };
+		45F6EC952152492B00A157E7 /* FloatingIPsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6EC942152492B00A157E7 /* FloatingIPsService.swift */; };
+		45F6EC972152495F00A157E7 /* FloatingIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6EC962152495F00A157E7 /* FloatingIP.swift */; };
+		45F6EC992152516E00A157E7 /* AddFloatingIPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6EC982152516E00A157E7 /* AddFloatingIPViewController.swift */; };
+		45F6EC9B215251BA00A157E7 /* FloatingIPDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F6EC9A215251BA00A157E7 /* FloatingIPDetailViewController.swift */; };
+		94C082D7E09E4178CDF4B0FD /* Pods_NeCTARClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160FE1A9B3DFB2E80C6A2874 /* Pods_NeCTARClient.framework */; };
+		CA06F2071EACEC7200E8B302 /* AddSecurityGroupRuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06F2061EACEC7200E8B302 /* AddSecurityGroupRuleViewController.swift */; };
+		CA088C7F1EA3318900E13027 /* KeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C7E1EA3318900E13027 /* KeyViewController.swift */; };
+		CA088C811EA335A800E13027 /* SecurityAndKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C801EA335A800E13027 /* SecurityAndKeyViewController.swift */; };
+		CA088C841EA3384000E13027 /* ImageDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C821EA3384000E13027 /* ImageDetailCell.swift */; };
+		CA088C851EA3384000E13027 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C831EA3384000E13027 /* ImageViewController.swift */; };
+		CA088C871EA3385000E13027 /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C861EA3385000E13027 /* SecurityViewController.swift */; };
+		CA088C891EA33AC900E13027 /* SecurityDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C881EA33AC900E13027 /* SecurityDetailCell.swift */; };
+		CA088C8B1EA33ADC00E13027 /* KeyDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C8A1EA33ADC00E13027 /* KeyDetailCell.swift */; };
+		CA088C8D1EA33F7900E13027 /* Security.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C8C1EA33F7900E13027 /* Security.swift */; };
+		CA088C8F1EA33F9100E13027 /* SecurityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C8E1EA33F9100E13027 /* SecurityService.swift */; };
+		CA088C911EA34FC500E13027 /* SecurityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C901EA34FC500E13027 /* SecurityDetailViewController.swift */; };
+		CA088C931EA38A0700E13027 /* SecurityDetailDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C921EA38A0700E13027 /* SecurityDetailDetailCell.swift */; };
+		CA088C991EA8799C00E13027 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C981EA8799C00E13027 /* Key.swift */; };
+		CA088C9B1EA879B200E13027 /* KeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C9A1EA879B200E13027 /* KeyService.swift */; };
+		CA088C9D1EA8904100E13027 /* KeyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C9C1EA8904100E13027 /* KeyDetailViewController.swift */; };
+		CA088C9F1EA8E9F900E13027 /* AddInstanceImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA088C9E1EA8E9F900E13027 /* AddInstanceImageViewController.swift */; };
+		CA0E5B0B1E7CED0B00B22194 /* NeCTARClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27510BB91D488F2A0098CD17 /* NeCTARClientTests.swift */; };
+		CA3C68B31EBB45A0002447CF /* AddVolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C68B21EBB45A0002447CF /* AddVolumeViewController.swift */; };
+		CA3C68B71EC083B1002447CF /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C68B61EC083B1002447CF /* ImageDetailViewController.swift */; };
+		CA3C68B91EC0996E002447CF /* VolumeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C68B81EC0996E002447CF /* VolumeDetailViewController.swift */; };
+		CA3C68BB1EC1F739002447CF /* AZone.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C68BA1EC1F739002447CF /* AZone.swift */; };
+		CA3C68BD1EC1F7A3002447CF /* AZoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C68BC1EC1F7A3002447CF /* AZoneService.swift */; };
+		CA7168111EB0958B008B48D2 /* ImportKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7168101EB0958B008B48D2 /* ImportKeyViewController.swift */; };
+		CA7168131EB1A7FB008B48D2 /* EditImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7168121EB1A7FB008B48D2 /* EditImageViewController.swift */; };
+		CA7168151EB2DE0E008B48D2 /* AddInstanceVolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7168141EB2DE0E008B48D2 /* AddInstanceVolumeViewController.swift */; };
+		CA7168181EB38B00008B48D2 /* VolumeAndSnapshotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7168171EB38B00008B48D2 /* VolumeAndSnapshotViewController.swift */; };
+		CA71681B1EB38B51008B48D2 /* VolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71681A1EB38B51008B48D2 /* VolumeViewController.swift */; };
+		CA71681D1EB38B67008B48D2 /* VolumeSnapshotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71681C1EB38B67008B48D2 /* VolumeSnapshotViewController.swift */; };
+		CA71681F1EB48163008B48D2 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71681E1EB48163008B48D2 /* Volume.swift */; };
+		CA7168211EB4863F008B48D2 /* VolumeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7168201EB4863F008B48D2 /* VolumeService.swift */; };
+		CA7168231EB48733008B48D2 /* VolumeDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7168221EB48733008B48D2 /* VolumeDetailCell.swift */; };
+		CA7168251EB4B05B008B48D2 /* VolumeSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7168241EB4B05B008B48D2 /* VolumeSnapshot.swift */; };
+		CA7168271EB4B3D6008B48D2 /* VolumeSnapshotService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7168261EB4B3D6008B48D2 /* VolumeSnapshotService.swift */; };
+		CA7168291EB4B630008B48D2 /* VolumeSnapshotDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7168281EB4B630008B48D2 /* VolumeSnapshotDetailCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27510BB61D488F2A0098CD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27510B991D488F290098CD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27510BA01D488F290098CD17;
+			remoteInfo = NeCTARClient;
+		};
+		27510BC11D488F2A0098CD17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27510B991D488F290098CD17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27510BA01D488F290098CD17;
+			remoteInfo = NeCTARClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA8AD24A1E7CEE13009BE0C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		160FE1A9B3DFB2E80C6A2874 /* Pods_NeCTARClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeCTARClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5B6132B56EA574C782E008 /* Pods-NeCTARClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeCTARClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-NeCTARClient/Pods-NeCTARClient.release.xcconfig"; sourceTree = "<group>"; };
+		2709AEDF1D656D40004FEB3D /* OverViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverViewCell.swift; sourceTree = "<group>"; };
+		272234651D6AFCD100C4F90B /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		273C205E1D9583FC0076356C /* SelfDefineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfDefineButton.swift; sourceTree = "<group>"; };
+		274343371D9F9510006B520F /* FlavorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlavorService.swift; sourceTree = "<group>"; };
+		2743433E1DA0CF21006B520F /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		274343401DA0CF2D006B520F /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		27451BED1D69402F00FF782E /* InstanceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstanceService.swift; sourceTree = "<group>"; };
+		27451BEF1D69404400FF782E /* Instance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instance.swift; sourceTree = "<group>"; };
+		274FF9481D53078700D588EC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		274FF94A1D53102A00D588EC /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		274FF94C1D5C868200D588EC /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		274FF94F1D5CAA2000D588EC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		27510BA11D488F290098CD17 /* NeCTARClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeCTARClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27510BA41D488F290098CD17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27510BA61D488F290098CD17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27510BA91D488F290098CD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27510BAB1D488F290098CD17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27510BAE1D488F290098CD17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27510BB01D488F290098CD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27510BB51D488F2A0098CD17 /* NeCTARClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeCTARClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27510BB91D488F2A0098CD17 /* NeCTARClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeCTARClientTests.swift; sourceTree = "<group>"; };
+		27510BBB1D488F2A0098CD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27510BC01D488F2A0098CD17 /* NeCTARClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeCTARClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27510BC41D488F2A0098CD17 /* NeCTARClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeCTARClientUITests.swift; sourceTree = "<group>"; };
+		27510BC61D488F2A0098CD17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275FA0B01D6A7A2100898557 /* InstanceDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstanceDetailCell.swift; sourceTree = "<group>"; };
+		276BE6271D607DF1003EA74C /* ContentBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBaseViewController.swift; sourceTree = "<group>"; };
+		276BE62B1D6080DC003EA74C /* CommonUsage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUsage.swift; sourceTree = "<group>"; };
+		276BE62D1D608BF9003EA74C /* OverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverViewController.swift; sourceTree = "<group>"; };
+		276BE62F1D609FAE003EA74C /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		276BE6421D62CA48003EA74C /* OtherPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherPageViewController.swift; sourceTree = "<group>"; };
+		276BE6461D6343A8003EA74C /* InstancesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InstancesViewController.swift; path = NeCTARClient/ViewControllers/Instance/InstancesViewController.swift; sourceTree = SOURCE_ROOT; };
+		276BE6481D6343C4003EA74C /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		27AAFD4E1D5DB246007E3054 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		27B5514E1DA372480083E8D4 /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		27B551511DA3BFF80083E8D4 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = WebViewController/WebViewController.swift; sourceTree = "<group>"; };
+		27B551521DA3BFF80083E8D4 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WebViewController.xib; path = WebViewController/WebViewController.xib; sourceTree = "<group>"; };
+		27DCDBFC1D8E873700D523BD /* InstanceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstanceDetailViewController.swift; sourceTree = "<group>"; };
+		27FA446A1D917DE6007DB8CC /* ActionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionsViewController.swift; sourceTree = "<group>"; };
+		4505A6B72154FEBE00F32F57 /* ContainerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerService.swift; sourceTree = "<group>"; };
+		4505A6B92154FEE400F32F57 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		4505A6BC2154FF4800F32F57 /* ConrainersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConrainersViewController.swift; path = Container/ConrainersViewController.swift; sourceTree = "<group>"; };
+		4505A6BE215500C300F32F57 /* ContainerDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContainerDetailCell.swift; path = Container/ContainerDetailCell.swift; sourceTree = "<group>"; };
+		4505A6C02155044000F32F57 /* AddContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddContainerViewController.swift; path = Container/AddContainerViewController.swift; sourceTree = "<group>"; };
+		4505A6C221551BE700F32F57 /* ContainerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContainerDetailViewController.swift; path = Container/ContainerDetailViewController.swift; sourceTree = "<group>"; };
+		4505A6C421551F0700F32F57 /* ObjectService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectService.swift; sourceTree = "<group>"; };
+		4505A6C621551FAA00F32F57 /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		4505A6C82155241000F32F57 /* ObjectDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectDetailCell.swift; path = Container/ObjectDetailCell.swift; sourceTree = "<group>"; };
+		4505A6CA2155DA3700F32F57 /* CreateFolderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateFolderViewController.swift; path = Container/CreateFolderViewController.swift; sourceTree = "<group>"; };
+		4505A6D1215628B300F32F57 /* NetworksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworksViewController.swift; path = Network/NetworksViewController.swift; sourceTree = "<group>"; };
+		4505A6D32156582600F32F57 /* NetworkDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkDetailCell.swift; path = Network/NetworkDetailCell.swift; sourceTree = "<group>"; };
+		4505A6D52156F61C00F32F57 /* NetworkDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkDetailViewController.swift; path = Network/NetworkDetailViewController.swift; sourceTree = "<group>"; };
+		4505A6D721571FAF00F32F57 /* AddNetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddNetworkViewController.swift; path = Network/AddNetworkViewController.swift; sourceTree = "<group>"; };
+		4505A6DB21575C5500F32F57 /* SubnetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubnetsViewController.swift; path = Network/SubnetsViewController.swift; sourceTree = "<group>"; };
+		4505A6DD215762B300F32F57 /* SubnetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubnetService.swift; sourceTree = "<group>"; };
+		4505A6DF215762F400F32F57 /* Subnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subnet.swift; sourceTree = "<group>"; };
+		4505A6E121576FAC00F32F57 /* SubnetDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubnetDetailCell.swift; path = Network/SubnetDetailCell.swift; sourceTree = "<group>"; };
+		4505A6E32157A46900F32F57 /* CreateSubnetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateSubnetViewController.swift; path = Network/CreateSubnetViewController.swift; sourceTree = "<group>"; };
+		4505A6E52157D73300F32F57 /* PortsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PortsViewController.swift; path = Network/PortsViewController.swift; sourceTree = "<group>"; };
+		4505A6E72158603700F32F57 /* Port.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Port.swift; sourceTree = "<group>"; };
+		4505A6E9215878B600F32F57 /* PortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortService.swift; sourceTree = "<group>"; };
+		4505A6EB21587E4500F32F57 /* PortDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PortDetailCell.swift; path = Network/PortDetailCell.swift; sourceTree = "<group>"; };
+		4505A6ED215891F300F32F57 /* CreatePortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreatePortViewController.swift; path = Network/CreatePortViewController.swift; sourceTree = "<group>"; };
+		4505A6F52159F36800F32F57 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeychainItemWrapper.h; path = NeCTARClient/KeychainItemWrapper.h; sourceTree = "<group>"; };
+		4505A6F62159F37300F32F57 /* NeCTARClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NeCTARClient-Bridging-Header.h"; path = "NeCTARClient/NeCTARClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		4505A6F72159F37400F32F57 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeychainItemWrapper.m; path = NeCTARClient/KeychainItemWrapper.m; sourceTree = "<group>"; };
+		4505A6FD215C6C1200F32F57 /* DatabaseInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseInstance.swift; sourceTree = "<group>"; };
+		4505A700215CA61400F32F57 /* DatabaseInstanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseInstanceViewController.swift; path = Database/DatabaseInstanceViewController.swift; sourceTree = "<group>"; };
+		4505A702215CA70100F32F57 /* DatabaseInstanceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseInstanceService.swift; sourceTree = "<group>"; };
+		4505A704215CAD7200F32F57 /* DatabaseInstanceDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseInstanceDetailCell.swift; sourceTree = "<group>"; };
+		4505A706215CDFD200F32F57 /* DatabaseInstanceDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseInstanceDetailViewController.swift; path = Database/DatabaseInstanceDetailViewController.swift; sourceTree = "<group>"; };
+		4505A708215CF15A00F32F57 /* AddBackupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBackupsViewController.swift; sourceTree = "<group>"; };
+		4505A70C215D172800F32F57 /* Backup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
+		4505A70E215D1ACC00F32F57 /* BackupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackupService.swift; sourceTree = "<group>"; };
+		4505A712215D2F1300F32F57 /* BackupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackupsViewController.swift; path = Database/BackupsViewController.swift; sourceTree = "<group>"; };
+		4505A714215D2F4B00F32F57 /* BackupDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackupDetailCell.swift; path = Database/BackupDetailCell.swift; sourceTree = "<group>"; };
+		4505A71A215F4CB300F32F57 /* NeCTAREngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeCTAREngine.swift; sourceTree = "<group>"; };
+		4505A71D215F6AAC00F32F57 /* ConfigurationGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigurationGroupViewController.swift; path = ConfigutationGroup/ConfigurationGroupViewController.swift; sourceTree = "<group>"; };
+		4505A71F215F6B0500F32F57 /* ConfigurationGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationGroup.swift; sourceTree = "<group>"; };
+		4505A721215F6D6500F32F57 /* ConfigurationGroupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationGroupService.swift; sourceTree = "<group>"; };
+		4505A723215F715900F32F57 /* ConfigurationDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigurationDetailCell.swift; path = ConfigutationGroup/ConfigurationDetailCell.swift; sourceTree = "<group>"; };
+		4505A729215F8B8800F32F57 /* AddConfigGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddConfigGroupViewController.swift; path = ConfigutationGroup/AddConfigGroupViewController.swift; sourceTree = "<group>"; };
+		4505A72B215F8C0E00F32F57 /* AddDataInsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddDataInsViewController.swift; path = Database/AddDataInsViewController.swift; sourceTree = "<group>"; };
+		4505A72D215FBEC000F32F57 /* AvailabilityZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityZone.swift; sourceTree = "<group>"; };
+		4505A72F215FBF4E00F32F57 /* AvailabZoneService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabZoneService.swift; sourceTree = "<group>"; };
+		4505A731216093B100F32F57 /* DatabaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseViewController.swift; path = Database/DatabaseViewController.swift; sourceTree = "<group>"; };
+		4505A7332160CDCF00F32F57 /* ResizeVolumeForDatabaseIns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResizeVolumeForDatabaseIns.swift; path = Database/ResizeVolumeForDatabaseIns.swift; sourceTree = "<group>"; };
+		4505A7352160DB9F00F32F57 /* AttachConfigGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AttachConfigGroupViewController.swift; path = Database/AttachConfigGroupViewController.swift; sourceTree = "<group>"; };
+		4505A7392161F29A00F32F57 /* ResourceTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceTypes.swift; sourceTree = "<group>"; };
+		4505A73B2161F3C600F32F57 /* ResourceTypeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceTypeService.swift; sourceTree = "<group>"; };
+		4505A73F2161F46F00F32F57 /* ResourceTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourceTypeViewController.swift; path = Orchestration/ResourceTypeViewController.swift; sourceTree = "<group>"; };
+		4505A7412161F73200F32F57 /* ResourceTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourceTypeCell.swift; path = Orchestration/ResourceTypeCell.swift; sourceTree = "<group>"; };
+		4505A7432161FE2000F32F57 /* ResourceTypeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourceTypeDetailViewController.swift; path = Orchestration/ResourceTypeDetailViewController.swift; sourceTree = "<group>"; };
+		4505A74521636C4900F32F57 /* TemplateVersion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateVersion.swift; sourceTree = "<group>"; };
+		4505A74721636D2400F32F57 /* TemplateVersionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateVersionService.swift; sourceTree = "<group>"; };
+		4505A74921636DCF00F32F57 /* TemplateVersionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemplateVersionViewController.swift; path = Orchestration/TemplateVersionViewController.swift; sourceTree = "<group>"; };
+		4505A74B21636FFE00F32F57 /* TemplateVersionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemplateVersionCell.swift; path = Orchestration/TemplateVersionCell.swift; sourceTree = "<group>"; };
+		4505A74D21637D3D00F32F57 /* TemplateVersionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemplateVersionDetailViewController.swift; path = Orchestration/TemplateVersionDetailViewController.swift; sourceTree = "<group>"; };
+		4505A74F216380EC00F32F57 /* TemplateVersionDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TemplateVersionDetailCell.swift; path = Orchestration/TemplateVersionDetailCell.swift; sourceTree = "<group>"; };
+		4505A7532163A1BF00F32F57 /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StackViewController.swift; path = Orchestration/StackViewController.swift; sourceTree = "<group>"; };
+		4505A7552163A30200F32F57 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		4505A7572163A3FD00F32F57 /* StackService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackService.swift; sourceTree = "<group>"; };
+		4505A7592163A63200F32F57 /* StackDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StackDetailCell.swift; path = Orchestration/StackDetailCell.swift; sourceTree = "<group>"; };
+		4505A75F2165C93500F32F57 /* StacksDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StacksDetailViewController.swift; path = Orchestration/StacksDetailViewController.swift; sourceTree = "<group>"; };
+		452068E5214B5DCE00427CBC /* RoutersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoutersViewController.swift; path = ViewControllers/Router/RoutersViewController.swift; sourceTree = "<group>"; };
+		452068E7214B7E0800427CBC /* RouterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterService.swift; sourceTree = "<group>"; };
+		452068E9214B7EC600427CBC /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		452068EB214BAF1B00427CBC /* RouterDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterDetailCell.swift; sourceTree = "<group>"; };
+		452068ED214BB3F600427CBC /* RouterDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterDetailViewController.swift; sourceTree = "<group>"; };
+		452068F3214CC0CA00427CBC /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		452068F5214CC12D00427CBC /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4582C6B921687CD5007C15F1 /* OrchestrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrchestrationViewController.swift; path = Orchestration/OrchestrationViewController.swift; sourceTree = "<group>"; };
+		458F5E1B214DE8A400C1DC47 /* AddRouterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddRouterViewController.swift; path = ViewControllers/Router/AddRouterViewController.swift; sourceTree = "<group>"; };
+		45CAF6682150D481000DC8C1 /* EditRouterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditRouterViewController.swift; path = ViewControllers/Router/EditRouterViewController.swift; sourceTree = "<group>"; };
+		45F6EC8E2152487900A157E7 /* FloatingIPsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingIPsViewController.swift; path = FloatingIP/FloatingIPsViewController.swift; sourceTree = "<group>"; };
+		45F6EC92215248FA00A157E7 /* FloatingIPDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingIPDetailCell.swift; path = FloatingIP/FloatingIPDetailCell.swift; sourceTree = "<group>"; };
+		45F6EC942152492B00A157E7 /* FloatingIPsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingIPsService.swift; sourceTree = "<group>"; };
+		45F6EC962152495F00A157E7 /* FloatingIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingIP.swift; sourceTree = "<group>"; };
+		45F6EC982152516E00A157E7 /* AddFloatingIPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddFloatingIPViewController.swift; path = FloatingIP/AddFloatingIPViewController.swift; sourceTree = "<group>"; };
+		45F6EC9A215251BA00A157E7 /* FloatingIPDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FloatingIPDetailViewController.swift; path = FloatingIP/FloatingIPDetailViewController.swift; sourceTree = "<group>"; };
+		4D1B065FB0CD8CC0A7A853D8 /* Pods_NeCTARClientUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeCTARClientUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BFD802475F6ED318E4023AD /* Pods-NeCTARClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeCTARClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NeCTARClient/Pods-NeCTARClient.debug.xcconfig"; sourceTree = "<group>"; };
+		A328051051531B7D06FC049E /* Pods_NeCTARClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeCTARClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA06F2061EACEC7200E8B302 /* AddSecurityGroupRuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSecurityGroupRuleViewController.swift; sourceTree = "<group>"; };
+		CA088C7E1EA3318900E13027 /* KeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyViewController.swift; sourceTree = "<group>"; };
+		CA088C801EA335A800E13027 /* SecurityAndKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityAndKeyViewController.swift; sourceTree = "<group>"; };
+		CA088C821EA3384000E13027 /* ImageDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailCell.swift; sourceTree = "<group>"; };
+		CA088C831EA3384000E13027 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		CA088C861EA3385000E13027 /* SecurityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
+		CA088C881EA33AC900E13027 /* SecurityDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityDetailCell.swift; sourceTree = "<group>"; };
+		CA088C8A1EA33ADC00E13027 /* KeyDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyDetailCell.swift; sourceTree = "<group>"; };
+		CA088C8C1EA33F7900E13027 /* Security.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Security.swift; sourceTree = "<group>"; };
+		CA088C8E1EA33F9100E13027 /* SecurityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityService.swift; sourceTree = "<group>"; };
+		CA088C901EA34FC500E13027 /* SecurityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityDetailViewController.swift; sourceTree = "<group>"; };
+		CA088C921EA38A0700E13027 /* SecurityDetailDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityDetailDetailCell.swift; sourceTree = "<group>"; };
+		CA088C981EA8799C00E13027 /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		CA088C9A1EA879B200E13027 /* KeyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyService.swift; sourceTree = "<group>"; };
+		CA088C9C1EA8904100E13027 /* KeyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyDetailViewController.swift; sourceTree = "<group>"; };
+		CA088C9E1EA8E9F900E13027 /* AddInstanceImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInstanceImageViewController.swift; sourceTree = "<group>"; };
+		CA0E5B0C1E7CED1700B22194 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/NeCTARClient-gjpexnnahfolmcgvcdjkdmpwzeuu/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		CA0E5B0D1E7CED1700B22194 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = "../../../Library/Developer/Xcode/DerivedData/NeCTARClient-gjpexnnahfolmcgvcdjkdmpwzeuu/Build/Products/Debug-iphonesimulator/Charts/Charts.framework"; sourceTree = "<group>"; };
+		CA0E5B0E1E7CED1700B22194 /* IBAnimatable.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBAnimatable.framework; path = "../../../Library/Developer/Xcode/DerivedData/NeCTARClient-gjpexnnahfolmcgvcdjkdmpwzeuu/Build/Products/Debug-iphonesimulator/IBAnimatable/IBAnimatable.framework"; sourceTree = "<group>"; };
+		CA0E5B0F1E7CED1700B22194 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = "../../../Library/Developer/Xcode/DerivedData/NeCTARClient-gjpexnnahfolmcgvcdjkdmpwzeuu/Build/Products/Debug-iphonesimulator/MBProgressHUD/MBProgressHUD.framework"; sourceTree = "<group>"; };
+		CA0E5B101E7CED1700B22194 /* OMGHTTPURLRQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OMGHTTPURLRQ.framework; path = "../../../Library/Developer/Xcode/DerivedData/NeCTARClient-gjpexnnahfolmcgvcdjkdmpwzeuu/Build/Products/Debug-iphonesimulator/OMGHTTPURLRQ/OMGHTTPURLRQ.framework"; sourceTree = "<group>"; };
+		CA0E5B111E7CED1700B22194 /* Pods_NeCTARClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_NeCTARClient.framework; path = "../../../Library/Developer/Xcode/DerivedData/NeCTARClient-gjpexnnahfolmcgvcdjkdmpwzeuu/Build/Products/Debug-iphonesimulator/Pods_NeCTARClient.framework"; sourceTree = "<group>"; };
+		CA0E5B121E7CED1700B22194 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/NeCTARClient-gjpexnnahfolmcgvcdjkdmpwzeuu/Build/Products/Debug-iphonesimulator/PromiseKit/PromiseKit.framework"; sourceTree = "<group>"; };
+		CA0E5B131E7CED1700B22194 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/NeCTARClient-gjpexnnahfolmcgvcdjkdmpwzeuu/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
+		CA0E5B141E7CED1700B22194 /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = "../../../Library/Developer/Xcode/DerivedData/NeCTARClient-gjpexnnahfolmcgvcdjkdmpwzeuu/Build/Products/Debug-iphonesimulator/SwiftDate/SwiftDate.framework"; sourceTree = "<group>"; };
+		CA0E5B151E7CED1700B22194 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/NeCTARClient-gjpexnnahfolmcgvcdjkdmpwzeuu/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		CA3C68B21EBB45A0002447CF /* AddVolumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddVolumeViewController.swift; sourceTree = "<group>"; };
+		CA3C68B61EC083B1002447CF /* ImageDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
+		CA3C68B81EC0996E002447CF /* VolumeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeDetailViewController.swift; sourceTree = "<group>"; };
+		CA3C68BA1EC1F739002447CF /* AZone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZone.swift; sourceTree = "<group>"; };
+		CA3C68BC1EC1F7A3002447CF /* AZoneService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AZoneService.swift; sourceTree = "<group>"; };
+		CA7168101EB0958B008B48D2 /* ImportKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportKeyViewController.swift; sourceTree = "<group>"; };
+		CA7168121EB1A7FB008B48D2 /* EditImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditImageViewController.swift; sourceTree = "<group>"; };
+		CA7168141EB2DE0E008B48D2 /* AddInstanceVolumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInstanceVolumeViewController.swift; sourceTree = "<group>"; };
+		CA7168171EB38B00008B48D2 /* VolumeAndSnapshotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeAndSnapshotViewController.swift; sourceTree = "<group>"; };
+		CA71681A1EB38B51008B48D2 /* VolumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeViewController.swift; sourceTree = "<group>"; };
+		CA71681C1EB38B67008B48D2 /* VolumeSnapshotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeSnapshotViewController.swift; sourceTree = "<group>"; };
+		CA71681E1EB48163008B48D2 /* Volume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
+		CA7168201EB4863F008B48D2 /* VolumeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeService.swift; sourceTree = "<group>"; };
+		CA7168221EB48733008B48D2 /* VolumeDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeDetailCell.swift; sourceTree = "<group>"; };
+		CA7168241EB4B05B008B48D2 /* VolumeSnapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeSnapshot.swift; sourceTree = "<group>"; };
+		CA7168261EB4B3D6008B48D2 /* VolumeSnapshotService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeSnapshotService.swift; sourceTree = "<group>"; };
+		CA7168281EB4B630008B48D2 /* VolumeSnapshotDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeSnapshotDetailCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27510B9E1D488F290098CD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C082D7E09E4178CDF4B0FD /* Pods_NeCTARClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27510BB21D488F2A0098CD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27510BBD1D488F2A0098CD17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6BDEA84378C9CBE598056C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0E5B0C1E7CED1700B22194 /* Alamofire.framework */,
+				CA0E5B0D1E7CED1700B22194 /* Charts.framework */,
+				CA0E5B0E1E7CED1700B22194 /* IBAnimatable.framework */,
+				CA0E5B0F1E7CED1700B22194 /* MBProgressHUD.framework */,
+				CA0E5B101E7CED1700B22194 /* OMGHTTPURLRQ.framework */,
+				CA0E5B111E7CED1700B22194 /* Pods_NeCTARClient.framework */,
+				CA0E5B121E7CED1700B22194 /* PromiseKit.framework */,
+				CA0E5B131E7CED1700B22194 /* SnapKit.framework */,
+				CA0E5B141E7CED1700B22194 /* SwiftDate.framework */,
+				CA0E5B151E7CED1700B22194 /* SwiftyJSON.framework */,
+				160FE1A9B3DFB2E80C6A2874 /* Pods_NeCTARClient.framework */,
+				A328051051531B7D06FC049E /* Pods_NeCTARClientTests.framework */,
+				4D1B065FB0CD8CC0A7A853D8 /* Pods_NeCTARClientUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		274FF9441D4EFC9D00D588EC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				274FF94A1D53102A00D588EC /* UserService.swift */,
+				27451BED1D69402F00FF782E /* InstanceService.swift */,
+				276BE62B1D6080DC003EA74C /* CommonUsage.swift */,
+				274343371D9F9510006B520F /* FlavorService.swift */,
+				2743433E1DA0CF21006B520F /* ImageService.swift */,
+				CA088C8E1EA33F9100E13027 /* SecurityService.swift */,
+				CA088C9A1EA879B200E13027 /* KeyService.swift */,
+				CA7168201EB4863F008B48D2 /* VolumeService.swift */,
+				CA7168261EB4B3D6008B48D2 /* VolumeSnapshotService.swift */,
+				CA3C68BC1EC1F7A3002447CF /* AZoneService.swift */,
+				452068E7214B7E0800427CBC /* RouterService.swift */,
+				452068F5214CC12D00427CBC /* NetworkService.swift */,
+				45F6EC942152492B00A157E7 /* FloatingIPsService.swift */,
+				4505A6B72154FEBE00F32F57 /* ContainerService.swift */,
+				4505A6C421551F0700F32F57 /* ObjectService.swift */,
+				4505A6DD215762B300F32F57 /* SubnetService.swift */,
+				4505A6E9215878B600F32F57 /* PortService.swift */,
+				4505A702215CA70100F32F57 /* DatabaseInstanceService.swift */,
+				4505A70E215D1ACC00F32F57 /* BackupService.swift */,
+				4505A721215F6D6500F32F57 /* ConfigurationGroupService.swift */,
+				4505A72F215FBF4E00F32F57 /* AvailabZoneService.swift */,
+				4505A73B2161F3C600F32F57 /* ResourceTypeService.swift */,
+				4505A74721636D2400F32F57 /* TemplateVersionService.swift */,
+				4505A7572163A3FD00F32F57 /* StackService.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		274FF9471D53077300D588EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				274FF9481D53078700D588EC /* User.swift */,
+				4505A6E72158603700F32F57 /* Port.swift */,
+				27451BEF1D69404400FF782E /* Instance.swift */,
+				272234651D6AFCD100C4F90B /* Flavor.swift */,
+				274343401DA0CF2D006B520F /* Image.swift */,
+				CA088C8C1EA33F7900E13027 /* Security.swift */,
+				CA088C981EA8799C00E13027 /* Key.swift */,
+				CA71681E1EB48163008B48D2 /* Volume.swift */,
+				CA7168241EB4B05B008B48D2 /* VolumeSnapshot.swift */,
+				CA3C68BA1EC1F739002447CF /* AZone.swift */,
+				452068E9214B7EC600427CBC /* Router.swift */,
+				452068F3214CC0CA00427CBC /* Network.swift */,
+				45F6EC962152495F00A157E7 /* FloatingIP.swift */,
+				4505A6B92154FEE400F32F57 /* Container.swift */,
+				4505A6C621551FAA00F32F57 /* Object.swift */,
+				4505A6DF215762F400F32F57 /* Subnet.swift */,
+				4505A6FD215C6C1200F32F57 /* DatabaseInstance.swift */,
+				4505A70C215D172800F32F57 /* Backup.swift */,
+				4505A71F215F6B0500F32F57 /* ConfigurationGroup.swift */,
+				4505A72D215FBEC000F32F57 /* AvailabilityZone.swift */,
+				4505A7392161F29A00F32F57 /* ResourceTypes.swift */,
+				4505A74521636C4900F32F57 /* TemplateVersion.swift */,
+				4505A7552163A30200F32F57 /* Stack.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		274FF94E1D5CA9D100D588EC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				274FF94F1D5CAA2000D588EC /* BaseViewController.swift */,
+				276BE6271D607DF1003EA74C /* ContentBaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		27510B981D488F290098CD17 = {
+			isa = PBXGroup;
+			children = (
+				27510BA31D488F290098CD17 /* NeCTARClient */,
+				27510BB81D488F2A0098CD17 /* NeCTARClientTests */,
+				27510BC31D488F2A0098CD17 /* NeCTARClientUITests */,
+				27510BA21D488F290098CD17 /* Products */,
+				B43916E3B813EE306B8984AF /* Pods */,
+				1F6BDEA84378C9CBE598056C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27510BA21D488F290098CD17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27510BA11D488F290098CD17 /* NeCTARClient.app */,
+				27510BB51D488F2A0098CD17 /* NeCTARClientTests.xctest */,
+				27510BC01D488F2A0098CD17 /* NeCTARClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27510BA31D488F290098CD17 /* NeCTARClient */ = {
+			isa = PBXGroup;
+			children = (
+				274FF9471D53077300D588EC /* Models */,
+				274FF9441D4EFC9D00D588EC /* Utils */,
+				27AEF62C1D49E0A3006A6337 /* Network */,
+				27AEF62D1D49E0A3006A6337 /* ViewControllers */,
+				27510BA41D488F290098CD17 /* AppDelegate.swift */,
+				27510BA61D488F290098CD17 /* ViewController.swift */,
+				274FF94C1D5C868200D588EC /* LoginStoryboard.storyboard */,
+				27510BA81D488F290098CD17 /* Main.storyboard */,
+				27510BAB1D488F290098CD17 /* Assets.xcassets */,
+				27510BAD1D488F290098CD17 /* LaunchScreen.storyboard */,
+				27510BB01D488F290098CD17 /* Info.plist */,
+			);
+			path = NeCTARClient;
+			sourceTree = "<group>";
+		};
+		27510BB81D488F2A0098CD17 /* NeCTARClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				27510BB91D488F2A0098CD17 /* NeCTARClientTests.swift */,
+				27510BBB1D488F2A0098CD17 /* Info.plist */,
+			);
+			path = NeCTARClientTests;
+			sourceTree = "<group>";
+		};
+		27510BC31D488F2A0098CD17 /* NeCTARClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27510BC41D488F2A0098CD17 /* NeCTARClientUITests.swift */,
+				27510BC61D488F2A0098CD17 /* Info.plist */,
+			);
+			path = NeCTARClientUITests;
+			sourceTree = "<group>";
+		};
+		275FA0AD1D6A781E00898557 /* Instance */ = {
+			isa = PBXGroup;
+			children = (
+				276BE6461D6343A8003EA74C /* InstancesViewController.swift */,
+				275FA0B01D6A7A2100898557 /* InstanceDetailCell.swift */,
+				27DCDBFC1D8E873700D523BD /* InstanceDetailViewController.swift */,
+				27FA446A1D917DE6007DB8CC /* ActionsViewController.swift */,
+				273C205E1D9583FC0076356C /* SelfDefineButton.swift */,
+				CA088C9E1EA8E9F900E13027 /* AddInstanceImageViewController.swift */,
+				CA7168141EB2DE0E008B48D2 /* AddInstanceVolumeViewController.swift */,
+			);
+			path = Instance;
+			sourceTree = "<group>";
+		};
+		2799F9841DAE7646007AC54F /* OverViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				276BE62D1D608BF9003EA74C /* OverViewController.swift */,
+				2709AEDF1D656D40004FEB3D /* OverViewCell.swift */,
+			);
+			name = OverViewControllers;
+			sourceTree = "<group>";
+		};
+		27AAFD4D1D5DB22A007E3054 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				27AAFD4E1D5DB246007E3054 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		27AEF62C1D49E0A3006A6337 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4505A71A215F4CB300F32F57 /* NeCTAREngine.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		27AEF62D1D49E0A3006A6337 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4505A73E2161F43100F32F57 /* Orchestration */,
+				4505A6FF215CA5C000F32F57 /* Database */,
+				4505A6D02156288300F32F57 /* Network */,
+				4505A6BB2154FF3100F32F57 /* Container */,
+				45F6EC8D2152461E00A157E7 /* FloatingIP */,
+				452068E4214B5D7A00427CBC /* Router */,
+				CA7168161EB353DF008B48D2 /* Volumes */,
+				CA088C7D1EA3315900E13027 /* SecurityAndKey */,
+				CA836A1F1E9D0D9100A2C2D9 /* Image */,
+				27B551501DA39F7F0083E8D4 /* WebViewController */,
+				275FA0AD1D6A781E00898557 /* Instance */,
+				27AAFD4D1D5DB22A007E3054 /* Login */,
+				274FF94E1D5CA9D100D588EC /* Common */,
+				2799F9841DAE7646007AC54F /* OverViewControllers */,
+				276BE62F1D609FAE003EA74C /* LeftViewController.swift */,
+				276BE6421D62CA48003EA74C /* OtherPageViewController.swift */,
+				276BE6481D6343C4003EA74C /* AboutViewController.swift */,
+				27B5514E1DA372480083E8D4 /* GuideViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		27B551501DA39F7F0083E8D4 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				27B551511DA3BFF80083E8D4 /* WebViewController.swift */,
+				27B551521DA3BFF80083E8D4 /* WebViewController.xib */,
+			);
+			name = WebViewController;
+			sourceTree = "<group>";
+		};
+		4505A6BB2154FF3100F32F57 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				4505A6BC2154FF4800F32F57 /* ConrainersViewController.swift */,
+				4505A6BE215500C300F32F57 /* ContainerDetailCell.swift */,
+				4505A6C02155044000F32F57 /* AddContainerViewController.swift */,
+				4505A6C221551BE700F32F57 /* ContainerDetailViewController.swift */,
+				4505A6C82155241000F32F57 /* ObjectDetailCell.swift */,
+				4505A6CA2155DA3700F32F57 /* CreateFolderViewController.swift */,
+			);
+			name = Container;
+			sourceTree = "<group>";
+		};
+		4505A6D02156288300F32F57 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4505A6D1215628B300F32F57 /* NetworksViewController.swift */,
+				4505A6D32156582600F32F57 /* NetworkDetailCell.swift */,
+				4505A6D52156F61C00F32F57 /* NetworkDetailViewController.swift */,
+				4505A6D721571FAF00F32F57 /* AddNetworkViewController.swift */,
+				4505A6DB21575C5500F32F57 /* SubnetsViewController.swift */,
+				4505A6E121576FAC00F32F57 /* SubnetDetailCell.swift */,
+				4505A6E32157A46900F32F57 /* CreateSubnetViewController.swift */,
+				4505A6E52157D73300F32F57 /* PortsViewController.swift */,
+				4505A6EB21587E4500F32F57 /* PortDetailCell.swift */,
+				4505A6ED215891F300F32F57 /* CreatePortViewController.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		4505A6FF215CA5C000F32F57 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				4505A731216093B100F32F57 /* DatabaseViewController.swift */,
+				4505A71D215F6AAC00F32F57 /* ConfigurationGroupViewController.swift */,
+				4505A723215F715900F32F57 /* ConfigurationDetailCell.swift */,
+				4505A729215F8B8800F32F57 /* AddConfigGroupViewController.swift */,
+				4505A700215CA61400F32F57 /* DatabaseInstanceViewController.swift */,
+				4505A704215CAD7200F32F57 /* DatabaseInstanceDetailCell.swift */,
+				4505A706215CDFD200F32F57 /* DatabaseInstanceDetailViewController.swift */,
+				4505A712215D2F1300F32F57 /* BackupsViewController.swift */,
+				4505A714215D2F4B00F32F57 /* BackupDetailCell.swift */,
+				4505A7352160DB9F00F32F57 /* AttachConfigGroupViewController.swift */,
+				4505A708215CF15A00F32F57 /* AddBackupsViewController.swift */,
+				4505A72B215F8C0E00F32F57 /* AddDataInsViewController.swift */,
+				4505A7332160CDCF00F32F57 /* ResizeVolumeForDatabaseIns.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		4505A73E2161F43100F32F57 /* Orchestration */ = {
+			isa = PBXGroup;
+			children = (
+				4582C6B921687CD5007C15F1 /* OrchestrationViewController.swift */,
+				4505A73F2161F46F00F32F57 /* ResourceTypeViewController.swift */,
+				4505A7412161F73200F32F57 /* ResourceTypeCell.swift */,
+				4505A7432161FE2000F32F57 /* ResourceTypeDetailViewController.swift */,
+				4505A74921636DCF00F32F57 /* TemplateVersionViewController.swift */,
+				4505A74B21636FFE00F32F57 /* TemplateVersionCell.swift */,
+				4505A74D21637D3D00F32F57 /* TemplateVersionDetailViewController.swift */,
+				4505A74F216380EC00F32F57 /* TemplateVersionDetailCell.swift */,
+				4505A7532163A1BF00F32F57 /* StackViewController.swift */,
+				4505A7592163A63200F32F57 /* StackDetailCell.swift */,
+				4505A75F2165C93500F32F57 /* StacksDetailViewController.swift */,
+			);
+			name = Orchestration;
+			sourceTree = "<group>";
+		};
+		452068E4214B5D7A00427CBC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				452068E5214B5DCE00427CBC /* RoutersViewController.swift */,
+				452068EB214BAF1B00427CBC /* RouterDetailCell.swift */,
+				452068ED214BB3F600427CBC /* RouterDetailViewController.swift */,
+				458F5E1B214DE8A400C1DC47 /* AddRouterViewController.swift */,
+				45CAF6682150D481000DC8C1 /* EditRouterViewController.swift */,
+			);
+			name = Router;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		45F6EC8D2152461E00A157E7 /* FloatingIP */ = {
+			isa = PBXGroup;
+			children = (
+				45F6EC8E2152487900A157E7 /* FloatingIPsViewController.swift */,
+				45F6EC92215248FA00A157E7 /* FloatingIPDetailCell.swift */,
+				45F6EC982152516E00A157E7 /* AddFloatingIPViewController.swift */,
+				45F6EC9A215251BA00A157E7 /* FloatingIPDetailViewController.swift */,
+			);
+			name = FloatingIP;
+			sourceTree = "<group>";
+		};
+		B43916E3B813EE306B8984AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4505A6F72159F37400F32F57 /* KeychainItemWrapper.m */,
+				4505A6F52159F36800F32F57 /* KeychainItemWrapper.h */,
+				4505A6F62159F37300F32F57 /* NeCTARClient-Bridging-Header.h */,
+				6BFD802475F6ED318E4023AD /* Pods-NeCTARClient.debug.xcconfig */,
+				1B5B6132B56EA574C782E008 /* Pods-NeCTARClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA088C7D1EA3315900E13027 /* SecurityAndKey */ = {
+			isa = PBXGroup;
+			children = (
+				CA088C861EA3385000E13027 /* SecurityViewController.swift */,
+				CA088C7E1EA3318900E13027 /* KeyViewController.swift */,
+				CA088C801EA335A800E13027 /* SecurityAndKeyViewController.swift */,
+				CA088C881EA33AC900E13027 /* SecurityDetailCell.swift */,
+				CA088C8A1EA33ADC00E13027 /* KeyDetailCell.swift */,
+				CA088C901EA34FC500E13027 /* SecurityDetailViewController.swift */,
+				CA088C921EA38A0700E13027 /* SecurityDetailDetailCell.swift */,
+				CA088C9C1EA8904100E13027 /* KeyDetailViewController.swift */,
+				CA06F2061EACEC7200E8B302 /* AddSecurityGroupRuleViewController.swift */,
+				CA7168101EB0958B008B48D2 /* ImportKeyViewController.swift */,
+			);
+			path = SecurityAndKey;
+			sourceTree = "<group>";
+		};
+		CA7168161EB353DF008B48D2 /* Volumes */ = {
+			isa = PBXGroup;
+			children = (
+				CA7168171EB38B00008B48D2 /* VolumeAndSnapshotViewController.swift */,
+				CA71681A1EB38B51008B48D2 /* VolumeViewController.swift */,
+				CA71681C1EB38B67008B48D2 /* VolumeSnapshotViewController.swift */,
+				CA7168221EB48733008B48D2 /* VolumeDetailCell.swift */,
+				CA7168281EB4B630008B48D2 /* VolumeSnapshotDetailCell.swift */,
+				CA3C68B21EBB45A0002447CF /* AddVolumeViewController.swift */,
+				CA3C68B81EC0996E002447CF /* VolumeDetailViewController.swift */,
+			);
+			path = Volumes;
+			sourceTree = "<group>";
+		};
+		CA836A1F1E9D0D9100A2C2D9 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CA088C821EA3384000E13027 /* ImageDetailCell.swift */,
+				CA088C831EA3384000E13027 /* ImageViewController.swift */,
+				CA7168121EB1A7FB008B48D2 /* EditImageViewController.swift */,
+				CA3C68B61EC083B1002447CF /* ImageDetailViewController.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27510BA01D488F290098CD17 /* NeCTARClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27510BC91D488F2A0098CD17 /* Build configuration list for PBXNativeTarget "NeCTARClient" */;
+			buildPhases = (
+				919932922893720AAD759D4E /* [CP] Check Pods Manifest.lock */,
+				27510B9D1D488F290098CD17 /* Sources */,
+				27510B9E1D488F290098CD17 /* Frameworks */,
+				27510B9F1D488F290098CD17 /* Resources */,
+				B603C5D379F58B44F13BC75F /* [CP] Embed Pods Frameworks */,
+				81CA300B473B08BE807FB497 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeCTARClient;
+			productName = NeCTARClient;
+			productReference = 27510BA11D488F290098CD17 /* NeCTARClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27510BB41D488F2A0098CD17 /* NeCTARClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27510BCC1D488F2A0098CD17 /* Build configuration list for PBXNativeTarget "NeCTARClientTests" */;
+			buildPhases = (
+				27510BB11D488F2A0098CD17 /* Sources */,
+				27510BB21D488F2A0098CD17 /* Frameworks */,
+				27510BB31D488F2A0098CD17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27510BB71D488F2A0098CD17 /* PBXTargetDependency */,
+			);
+			name = NeCTARClientTests;
+			productName = NeCTARClientTests;
+			productReference = 27510BB51D488F2A0098CD17 /* NeCTARClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27510BBF1D488F2A0098CD17 /* NeCTARClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27510BCF1D488F2A0098CD17 /* Build configuration list for PBXNativeTarget "NeCTARClientUITests" */;
+			buildPhases = (
+				27510BBC1D488F2A0098CD17 /* Sources */,
+				27510BBD1D488F2A0098CD17 /* Frameworks */,
+				27510BBE1D488F2A0098CD17 /* Resources */,
+				CA8AD24A1E7CEE13009BE0C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27510BC21D488F2A0098CD17 /* PBXTargetDependency */,
+			);
+			name = NeCTARClientUITests;
+			productName = NeCTARClientUITests;
+			productReference = 27510BC01D488F2A0098CD17 /* NeCTARClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27510B991D488F290098CD17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Xinrui Xu";
+				TargetAttributes = {
+					27510BA01D488F290098CD17 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = DHGLHDUHR6;
+					};
+					27510BB41D488F2A0098CD17 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 9CQ32ZPA5Z;
+						TestTargetID = 27510BA01D488F290098CD17;
+					};
+					27510BBF1D488F2A0098CD17 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 27510BA01D488F290098CD17;
+					};
+				};
+			};
+			buildConfigurationList = 27510B9C1D488F290098CD17 /* Build configuration list for PBXProject "NeCTARClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27510B981D488F290098CD17;
+			productRefGroup = 27510BA21D488F290098CD17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27510BA01D488F290098CD17 /* NeCTARClient */,
+				27510BB41D488F2A0098CD17 /* NeCTARClientTests */,
+				27510BBF1D488F2A0098CD17 /* NeCTARClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27510B9F1D488F290098CD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27510BAF1D488F290098CD17 /* LaunchScreen.storyboard in Resources */,
+				27510BAC1D488F290098CD17 /* Assets.xcassets in Resources */,
+				27510BAA1D488F290098CD17 /* Main.storyboard in Resources */,
+				27B551541DA3BFF80083E8D4 /* WebViewController.xib in Resources */,
+				274FF94D1D5C868200D588EC /* LoginStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27510BB31D488F2A0098CD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27510BBE1D488F2A0098CD17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81CA300B473B08BE807FB497 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeCTARClient/Pods-NeCTARClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919932922893720AAD759D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B603C5D379F58B44F13BC75F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NeCTARClient/Pods-NeCTARClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27510B9D1D488F290098CD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4505A705215CAD7200F32F57 /* DatabaseInstanceDetailCell.swift in Sources */,
+				276BE6491D6343C4003EA74C /* AboutViewController.swift in Sources */,
+				27AAFD4F1D5DB246007E3054 /* LoginViewController.swift in Sources */,
+				2743433F1DA0CF21006B520F /* ImageService.swift in Sources */,
+				4505A715215D2F4B00F32F57 /* BackupDetailCell.swift in Sources */,
+				4505A703215CA70100F32F57 /* DatabaseInstanceService.swift in Sources */,
+				4505A73C2161F3C600F32F57 /* ResourceTypeService.swift in Sources */,
+				CA3C68BD1EC1F7A3002447CF /* AZoneService.swift in Sources */,
+				4505A6E0215762F400F32F57 /* Subnet.swift in Sources */,
+				4505A75A2163A63200F32F57 /* StackDetailCell.swift in Sources */,
+				CA088C911EA34FC500E13027 /* SecurityDetailViewController.swift in Sources */,
+				452068EC214BAF1B00427CBC /* RouterDetailCell.swift in Sources */,
+				CA088C9D1EA8904100E13027 /* KeyDetailViewController.swift in Sources */,
+				CA7168181EB38B00008B48D2 /* VolumeAndSnapshotViewController.swift in Sources */,
+				4505A6BF215500C300F32F57 /* ContainerDetailCell.swift in Sources */,
+				273C205F1D9583FC0076356C /* SelfDefineButton.swift in Sources */,
+				4505A750216380EC00F32F57 /* TemplateVersionDetailCell.swift in Sources */,
+				274FF9491D53078700D588EC /* User.swift in Sources */,
+				4505A6BD2154FF4800F32F57 /* ConrainersViewController.swift in Sources */,
+				4505A71B215F4CB300F32F57 /* NeCTAREngine.swift in Sources */,
+				275FA0B11D6A7A2100898557 /* InstanceDetailCell.swift in Sources */,
+				276BE6431D62CA49003EA74C /* OtherPageViewController.swift in Sources */,
+				4505A6C521551F0700F32F57 /* ObjectService.swift in Sources */,
+				276BE62C1D6080DC003EA74C /* CommonUsage.swift in Sources */,
+				4505A6EC21587E4500F32F57 /* PortDetailCell.swift in Sources */,
+				27451BF01D69404400FF782E /* Instance.swift in Sources */,
+				4505A6CB2155DA3700F32F57 /* CreateFolderViewController.swift in Sources */,
+				4505A7422161F73200F32F57 /* ResourceTypeCell.swift in Sources */,
+				4505A71E215F6AAC00F32F57 /* ConfigurationGroupViewController.swift in Sources */,
+				4505A732216093B100F32F57 /* DatabaseViewController.swift in Sources */,
+				27FA446B1D917DE6007DB8CC /* ActionsViewController.swift in Sources */,
+				CA7168291EB4B630008B48D2 /* VolumeSnapshotDetailCell.swift in Sources */,
+				4505A6D821571FAF00F32F57 /* AddNetworkViewController.swift in Sources */,
+				4505A72A215F8B8800F32F57 /* AddConfigGroupViewController.swift in Sources */,
+				274FF94B1D53102A00D588EC /* UserService.swift in Sources */,
+				4505A70F215D1ACC00F32F57 /* BackupService.swift in Sources */,
+				27510BA71D488F290098CD17 /* ViewController.swift in Sources */,
+				2709AEE01D656D40004FEB3D /* OverViewCell.swift in Sources */,
+				CA088C8D1EA33F7900E13027 /* Security.swift in Sources */,
+				27B551531DA3BFF80083E8D4 /* WebViewController.swift in Sources */,
+				4505A720215F6B0500F32F57 /* ConfigurationGroup.swift in Sources */,
+				4505A6F82159F37400F32F57 /* KeychainItemWrapper.m in Sources */,
+				27B5514F1DA372480083E8D4 /* GuideViewController.swift in Sources */,
+				276BE6301D609FAE003EA74C /* LeftViewController.swift in Sources */,
+				45F6EC93215248FA00A157E7 /* FloatingIPDetailCell.swift in Sources */,
+				CA088C811EA335A800E13027 /* SecurityAndKeyViewController.swift in Sources */,
+				276BE62E1D608BF9003EA74C /* OverViewController.swift in Sources */,
+				CA088C8B1EA33ADC00E13027 /* KeyDetailCell.swift in Sources */,
+				4505A724215F715900F32F57 /* ConfigurationDetailCell.swift in Sources */,
+				CA088C9B1EA879B200E13027 /* KeyService.swift in Sources */,
+				4505A72E215FBEC000F32F57 /* AvailabilityZone.swift in Sources */,
+				27510BA51D488F290098CD17 /* AppDelegate.swift in Sources */,
+				4505A6D2215628B300F32F57 /* NetworksViewController.swift in Sources */,
+				CA088C851EA3384000E13027 /* ImageViewController.swift in Sources */,
+				27451BEE1D69402F00FF782E /* InstanceService.swift in Sources */,
+				4505A7362160DB9F00F32F57 /* AttachConfigGroupViewController.swift in Sources */,
+				CA3C68BB1EC1F739002447CF /* AZone.swift in Sources */,
+				276BE6471D6343A8003EA74C /* InstancesViewController.swift in Sources */,
+				4505A6E42157A46900F32F57 /* CreateSubnetViewController.swift in Sources */,
+				452068EA214B7EC600427CBC /* Router.swift in Sources */,
+				4505A6E82158603700F32F57 /* Port.swift in Sources */,
+				CA71681D1EB38B67008B48D2 /* VolumeSnapshotViewController.swift in Sources */,
+				4505A6D62156F61C00F32F57 /* NetworkDetailViewController.swift in Sources */,
+				CA088C9F1EA8E9F900E13027 /* AddInstanceImageViewController.swift in Sources */,
+				4505A6E221576FAC00F32F57 /* SubnetDetailCell.swift in Sources */,
+				CA7168211EB4863F008B48D2 /* VolumeService.swift in Sources */,
+				27DCDBFD1D8E873700D523BD /* InstanceDetailViewController.swift in Sources */,
+				274343411DA0CF2D006B520F /* Image.swift in Sources */,
+				452068F4214CC0CA00427CBC /* Network.swift in Sources */,
+				CA3C68B91EC0996E002447CF /* VolumeDetailViewController.swift in Sources */,
+				CA7168271EB4B3D6008B48D2 /* VolumeSnapshotService.swift in Sources */,
+				274343381D9F9510006B520F /* FlavorService.swift in Sources */,
+				4505A713215D2F1300F32F57 /* BackupsViewController.swift in Sources */,
+				CA06F2071EACEC7200E8B302 /* AddSecurityGroupRuleViewController.swift in Sources */,
+				4505A74C21636FFE00F32F57 /* TemplateVersionCell.swift in Sources */,
+				CA088C891EA33AC900E13027 /* SecurityDetailCell.swift in Sources */,
+				4505A707215CDFD200F32F57 /* DatabaseInstanceDetailViewController.swift in Sources */,
+				CA71681F1EB48163008B48D2 /* Volume.swift in Sources */,
+				452068E8214B7E0800427CBC /* RouterService.swift in Sources */,
+				CA088C991EA8799C00E13027 /* Key.swift in Sources */,
+				4505A7402161F46F00F32F57 /* ResourceTypeViewController.swift in Sources */,
+				CA3C68B31EBB45A0002447CF /* AddVolumeViewController.swift in Sources */,
+				4505A72C215F8C0E00F32F57 /* AddDataInsViewController.swift in Sources */,
+				452068F6214CC12D00427CBC /* NetworkService.swift in Sources */,
+				4505A6C721551FAA00F32F57 /* Object.swift in Sources */,
+				45CAF6692150D481000DC8C1 /* EditRouterViewController.swift in Sources */,
+				4505A709215CF15A00F32F57 /* AddBackupsViewController.swift in Sources */,
+				452068EE214BB3F600427CBC /* RouterDetailViewController.swift in Sources */,
+				4505A74A21636DCF00F32F57 /* TemplateVersionViewController.swift in Sources */,
+				CA088C7F1EA3318900E13027 /* KeyViewController.swift in Sources */,
+				4505A6BA2154FEE400F32F57 /* Container.swift in Sources */,
+				CA7168251EB4B05B008B48D2 /* VolumeSnapshot.swift in Sources */,
+				4505A6DE215762B300F32F57 /* SubnetService.swift in Sources */,
+				45F6EC972152495F00A157E7 /* FloatingIP.swift in Sources */,
+				4505A7342160CDCF00F32F57 /* ResizeVolumeForDatabaseIns.swift in Sources */,
+				4505A7542163A1BF00F32F57 /* StackViewController.swift in Sources */,
+				4505A701215CA61400F32F57 /* DatabaseInstanceViewController.swift in Sources */,
+				4505A6EE215891F300F32F57 /* CreatePortViewController.swift in Sources */,
+				4505A6D42156582600F32F57 /* NetworkDetailCell.swift in Sources */,
+				4582C6BA21687CD5007C15F1 /* OrchestrationViewController.swift in Sources */,
+				4505A730215FBF4E00F32F57 /* AvailabZoneService.swift in Sources */,
+				4505A6E62157D73300F32F57 /* PortsViewController.swift in Sources */,
+				CA088C871EA3385000E13027 /* SecurityViewController.swift in Sources */,
+				45F6EC9B215251BA00A157E7 /* FloatingIPDetailViewController.swift in Sources */,
+				4505A6C12155044000F32F57 /* AddContainerViewController.swift in Sources */,
+				4505A6B82154FEBE00F32F57 /* ContainerService.swift in Sources */,
+				272234661D6AFCD100C4F90B /* Flavor.swift in Sources */,
+				CA7168131EB1A7FB008B48D2 /* EditImageViewController.swift in Sources */,
+				4505A7582163A3FD00F32F57 /* StackService.swift in Sources */,
+				45F6EC992152516E00A157E7 /* AddFloatingIPViewController.swift in Sources */,
+				4505A6DC21575C5500F32F57 /* SubnetsViewController.swift in Sources */,
+				CA7168151EB2DE0E008B48D2 /* AddInstanceVolumeViewController.swift in Sources */,
+				274FF9501D5CAA2000D588EC /* BaseViewController.swift in Sources */,
+				4505A74821636D2400F32F57 /* TemplateVersionService.swift in Sources */,
+				4505A6EA215878B600F32F57 /* PortService.swift in Sources */,
+				4505A7562163A30200F32F57 /* Stack.swift in Sources */,
+				4505A7602165C93500F32F57 /* StacksDetailViewController.swift in Sources */,
+				4505A74621636C4900F32F57 /* TemplateVersion.swift in Sources */,
+				4505A74E21637D3D00F32F57 /* TemplateVersionDetailViewController.swift in Sources */,
+				CA7168111EB0958B008B48D2 /* ImportKeyViewController.swift in Sources */,
+				45F6EC952152492B00A157E7 /* FloatingIPsService.swift in Sources */,
+				CA088C8F1EA33F9100E13027 /* SecurityService.swift in Sources */,
+				4505A722215F6D6500F32F57 /* ConfigurationGroupService.swift in Sources */,
+				CA71681B1EB38B51008B48D2 /* VolumeViewController.swift in Sources */,
+				458F5E1C214DE8A400C1DC47 /* AddRouterViewController.swift in Sources */,
+				CA7168231EB48733008B48D2 /* VolumeDetailCell.swift in Sources */,
+				276BE6281D607DF1003EA74C /* ContentBaseViewController.swift in Sources */,
+				4505A6C321551BE700F32F57 /* ContainerDetailViewController.swift in Sources */,
+				45F6EC8F2152487900A157E7 /* FloatingIPsViewController.swift in Sources */,
+				4505A6C92155241000F32F57 /* ObjectDetailCell.swift in Sources */,
+				CA088C841EA3384000E13027 /* ImageDetailCell.swift in Sources */,
+				452068E6214B5DCE00427CBC /* RoutersViewController.swift in Sources */,
+				4505A6FE215C6C1200F32F57 /* DatabaseInstance.swift in Sources */,
+				4505A70D215D172800F32F57 /* Backup.swift in Sources */,
+				CA3C68B71EC083B1002447CF /* ImageDetailViewController.swift in Sources */,
+				4505A7442161FE2000F32F57 /* ResourceTypeDetailViewController.swift in Sources */,
+				CA088C931EA38A0700E13027 /* SecurityDetailDetailCell.swift in Sources */,
+				4505A73A2161F29A00F32F57 /* ResourceTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27510BB11D488F2A0098CD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27510BBA1D488F2A0098CD17 /* NeCTARClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27510BBC1D488F2A0098CD17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0E5B0B1E7CED0B00B22194 /* NeCTARClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27510BB71D488F2A0098CD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27510BA01D488F290098CD17 /* NeCTARClient */;
+			targetProxy = 27510BB61D488F2A0098CD17 /* PBXContainerItemProxy */;
+		};
+		27510BC21D488F2A0098CD17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27510BA01D488F290098CD17 /* NeCTARClient */;
+			targetProxy = 27510BC11D488F2A0098CD17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27510BA81D488F290098CD17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27510BA91D488F290098CD17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27510BAD1D488F290098CD17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27510BAE1D488F290098CD17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27510BC71D488F2A0098CD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27510BC81D488F2A0098CD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27510BCA1D488F2A0098CD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFD802475F6ED318E4023AD /* Pods-NeCTARClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NeCTARClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.dingw.NeCTARClient.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NeCTARClient/NeCTARClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27510BCB1D488F2A0098CD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5B6132B56EA574C782E008 /* Pods-NeCTARClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NeCTARClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.dingw.NeCTARClient.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NeCTARClient/NeCTARClient-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		27510BCD1D488F2A0098CD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeCTARClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.dingw.NeCTARClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeCTARClient.app/NeCTARClient";
+			};
+			name = Debug;
+		};
+		27510BCE1D488F2A0098CD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeCTARClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.dingw.NeCTARClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeCTARClient.app/NeCTARClient";
+			};
+			name = Release;
+		};
+		27510BD01D488F2A0098CD17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NeCTARClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.dingw.NeCTARClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "";
+				TEST_TARGET_NAME = NeCTARClient;
+				USES_XCTRUNNER = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		27510BD11D488F2A0098CD17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NeCTARClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.dingw.NeCTARClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = "";
+				TEST_TARGET_NAME = NeCTARClient;
+				USES_XCTRUNNER = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27510B9C1D488F290098CD17 /* Build configuration list for PBXProject "NeCTARClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27510BC71D488F2A0098CD17 /* Debug */,
+				27510BC81D488F2A0098CD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27510BC91D488F2A0098CD17 /* Build configuration list for PBXNativeTarget "NeCTARClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27510BCA1D488F2A0098CD17 /* Debug */,
+				27510BCB1D488F2A0098CD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27510BCC1D488F2A0098CD17 /* Build configuration list for PBXNativeTarget "NeCTARClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27510BCD1D488F2A0098CD17 /* Debug */,
+				27510BCE1D488F2A0098CD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27510BCF1D488F2A0098CD17 /* Build configuration list for PBXNativeTarget "NeCTARClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27510BD01D488F2A0098CD17 /* Debug */,
+				27510BD11D488F2A0098CD17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27510B991D488F290098CD17 /* Project object */;
+}
